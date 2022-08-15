@@ -1,5 +1,7 @@
 # Simple Lit
 
+## Introduction
+
 Pretty simple lit shader that implements diffuse, specular light and some other stuff.
 
 It can be used as a basis for further experiments with shaders.
@@ -9,7 +11,7 @@ It can be used as a basis for further experiments with shaders.
   <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
-## Feature list
+## Feature list :sparkles:
 - Lambertian diffuse light
 - Blinn-Phong specular light
 - Ambient light
@@ -18,30 +20,30 @@ It can be used as a basis for further experiments with shaders.
 - Cascade shadows
 - GPU Instancing
 
-## Supported light types
-- Per-pixel directional, point, spot lights
-- Per-vertex point, spot lights
-- SH point, spot lights
+## Supported light types :bulb:
+- **Per-pixel** directional, point, spot lights
+- **Per-vertex** point, spot lights
+- **SH** point, spot lights
 
-## Per-pixel directional light
+## Per-pixel directional light :heavy_check_mark:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/DirLight.gif">
   <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
-## Per-vertex point lights
+## Per-vertex point lights :heavy_check_mark:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/PointLight.gif">
   <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
-## Per-pixel spot light
+## Per-pixel spot light :heavy_check_mark:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/SpotLight.gif">
   <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
-## GPU Instancing
+## GPU Instancing :warning:
 Unity uses GPU instancing for GameObjects that share the same mesh and material. To instance a mesh and material:
 
 - The material’s shader must support GPU instancing. Unity’s Standard Shader supports GPU instancing, as do all surface shaders.
