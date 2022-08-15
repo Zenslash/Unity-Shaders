@@ -18,10 +18,22 @@ It can be used as a basis for further experiments with shaders.
 - SH point, spot lights
 
 ## Per-pixel directional light
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="GIF/DirLight.gif">
+  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
 
 ## Per-vertex point lights
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="GIF/PointLight.gif">
+  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
 
 ## Per-pixel spot light
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="GIF/SpotLight.gif">
+  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
 
 ## GPU Instancing
 Unity uses GPU instancing for GameObjects that share the same mesh and material. To instance a mesh and material:
