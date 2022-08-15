@@ -8,7 +8,7 @@ It can be used as a basis for further experiments with shaders.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/BigPicture.png">
-  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="" src="GIF/BigPicture.png">
 </picture>
 
 ## Feature list :sparkles:
@@ -28,19 +28,19 @@ It can be used as a basis for further experiments with shaders.
 ## Per-pixel directional light :heavy_check_mark:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/DirLight.gif">
-  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="" src="GIF/DirLight.gif">
 </picture>
 
 ## Per-vertex point lights :heavy_check_mark:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/PointLight.gif">
-  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="" src="GIF/PointLight.gif">
 </picture>
 
 ## Per-pixel spot light :heavy_check_mark:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/SpotLight.gif">
-  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="" src="GIF/SpotLight.gif">
 </picture>
 
 ## GPU Instancing :warning:
