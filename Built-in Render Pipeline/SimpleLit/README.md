@@ -4,9 +4,15 @@ Pretty simple lit shader that implements diffuse, specular light and some other 
 
 It can be used as a basis for further experiments with shaders.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="GIF/BigPicture.png">
+  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+
 ## Feature list
 - Lambertian diffuse light
 - Blinn-Phong specular light
+- Ambient light
 - Fresnel factor
 - Normal mapping
 - Cascade shadows
