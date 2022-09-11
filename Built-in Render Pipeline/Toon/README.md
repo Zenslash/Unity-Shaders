@@ -1,10 +1,8 @@
-# Simple Lit
+# Toon shader
 
 ## Introduction
 
-Pretty simple lit shader that implements diffuse, specular light and some other stuff.
-
-It can be used as a basis for further experiments with shaders.
+Toon shader which can be used for cartoon/anime style games, cutscenes, films.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/BigPicture.png">
@@ -12,18 +10,18 @@ It can be used as a basis for further experiments with shaders.
 </picture>
 
 ## Feature list :sparkles:
-- Lambertian diffuse light
-- Blinn-Phong specular light
+- Cel shading
 - Ambient light
-- Fresnel factor
+- Rim light
+- Outlining
 - Normal mapping
 - Cascade shadows
 - GPU Instancing
 
 ## Supported light types :bulb:
-- **Per-pixel** directional, point, spot lights
-- **Per-vertex** point, spot lights
-- **SH** point, spot lights
+- **Per-pixel** directional
+- **Per-vertex** point
+- **SH** point
 
 ## Per-pixel directional light :heavy_check_mark:
 <picture>
@@ -35,12 +33,6 @@ It can be used as a basis for further experiments with shaders.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="GIF/PointLight.gif">
   <img alt="" src="GIF/PointLight.gif">
-</picture>
-
-## Per-pixel spot light :heavy_check_mark:
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="GIF/SpotLight.gif">
-  <img alt="" src="GIF/SpotLight.gif">
 </picture>
 
 ## GPU Instancing :warning:
