@@ -77,8 +77,6 @@ fixed4 frag (v2f i) : SV_Target
 
     //Normalize view direction
     i.viewDir = normalize(i.viewDir);
-    //Calculate halfway vector
-    float3 h = normalize(i.viewDir + light.Dir);
     
     //Diffuse
     float diffuseIntensity = dot(normal, light.Dir);
